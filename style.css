@@ -1,0 +1,66 @@
+*{
+    border: 0;
+    margin: 0;
+}
+
+
+table {
+    margin: 0 auto;
+    font-size: large;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+
+td {
+    background-color: #E4F5D4;
+    border: 1px solid black;
+}
+
+th,
+td {
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+td {
+    font-weight: lighter;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #fff;
+  }
+  
+  
+  
+  
+  
+  
+  .topnav .search-container {
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    
+  }
+  
+  .topnav input[type=text] {
+  
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+.del{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+background: red;
+border-radius: 20%;
+font-size: larger;
+
+
+}
